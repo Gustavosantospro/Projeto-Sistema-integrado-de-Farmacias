@@ -1,0 +1,14 @@
+
+section#body
+{
+    padding: 1em;
+}
+nav.row
+{
+    background:#C21C1C;
+}
+section#body header h1
+{
+    color: #C21C1C;
+    
+}
