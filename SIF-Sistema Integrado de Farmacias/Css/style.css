@@ -20,14 +20,6 @@ section#body header h1
     
 }
 
-/*
-.lista-img {
-    width: 100%;
-    height: 100%;
-    object-position: center;
-
-}*/
-
 .lista-img li{
     display: inline-block;
     padding-left: 46px;
@@ -56,3 +48,4 @@ section#body header h1
 {
     text-align: center;
 }
+

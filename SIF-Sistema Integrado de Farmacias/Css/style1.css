@@ -1,0 +1,55 @@
+
+section#body
+{
+    padding: 1em;
+}
+nav.row
+{
+    background:#C21C1C;
+}
+section#body header h1
+{
+    color: #C21C1C;
+    
+}
+
+section#produtos
+{
+    margin-top: 1em;
+    display: flex;
+    
+}
+div.produto 
+{
+    border: solid 1px black;
+    width: fit-content;
+    margin: auto;
+}
+div.produto div
+{
+    border: solid 1px black;
+    text-align: center;
+}
+
+@media screen and (max-width:520px)
+{
+    div.col 
+    {
+        height: 200px;
+    }
+    section#produtos
+{
+    margin-top: 2px;
+    display: flex;
+}
+div.produtos
+{
+    padding: 1em;
+}
+}
+
+
+
+
+
+
