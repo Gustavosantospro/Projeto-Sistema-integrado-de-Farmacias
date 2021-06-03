@@ -31,37 +31,38 @@
                   </ul>  
                 </div>
             </nav>
-            <ul class="sidenav" id="mobile-demo">
-                <li><a href="#text1">Início</a></li>
-                <li><a href="#text2">Sobre Nós</a></li>
-                <li><a href="#text3">Medicamentos</a></li>
-                <li><a href="#text3">Parceiros</a></li>
-                <li><a href="#text4" class="modal-trigger">Entrar</a></li>
-            </ul>
+            
+                <ul class="sidenav" id="mobile-demo">
+                    <li><a href="#text1">Início</a></li>
+                    <li><a href="#text2">Sobre Nós</a></li>
+                    <li><a href="#text3">Medicamentos</a></li>
+                    <li><a href="#text3">Parceiros</a></li>
+                    <li><a href="#text4" class="modal-trigger">Entrar</a></li>
+                </ul>
+            </div>
         </div>
     </section> <!--final da section-->
 
     <section id="body">
-        
-  <div class="carousel carousel-slider">
-    <a class="carousel-item" href="#1"><img src="Imagens/fdsbebe.png"></a>
-    <a class="carousel-item" href="#2"><img src="Imagens/farmacinha.png"></a>
-    <a class="carousel-item" href="#3"><img src="Imagens/Germisdin.png"></a>
-    <a class="carousel-item" href="#one!"><img src="Imagens/imagemremedio.png"></a>
-    <a class="carousel-item" href="#one!"><img src="Imagens/Oferta das maes.png"></a>
-    <a class="carousel-item" href="#!"><img src="Imagens/pele.png"></a>
-    
-  </div>
-  <div class="img-wrapper">
-  <section>
-   
-  <ul class="lista-img">
-    <li><img src="Produto/Accu Chek Guide Economy.jpg" style="width: 200px; height: 250px;" alt=""></li>
-    <li><img src="Produto/Bepantol Derma Creme 40g.jpg" style="width: 200px; height: 250px;" alt=""></li>
-    <li><img src="Produto/Composto Lacteo 800g.jpg" style="width: 200px; height: 250px;" alt=""></li>
-    <li><img src="Produto/Gel de limpeza 200ml.jpg" style="width: 200px; height: 250px;" alt=""></li>
-    <li><img src="Produto/Kit Renu Solução.jpg" style="width: 200px; height: 250px;" alt=""></li>
-</ul>
+        <div class="col s12 m12">
+            <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#1"><img src="Imagens/fdsbebe.png"></a>
+                <a class="carousel-item" href="#2"><img src="Imagens/farmacinha.png"></a>
+                <a class="carousel-item" href="#3"><img src="Imagens/Germisdin.png"></a>
+                <a class="carousel-item" href="#one!"><img src="Imagens/imagemremedio.png"></a>
+                <a class="carousel-item" href="#one!"><img src="Imagens/Oferta das maes.png"></a>
+                <a class="carousel-item" href="#!"><img src="Imagens/pele.png"></a>
+            </div>
+        </div>
+   <div class="produtos">
+        <ul class="lista-img">
+            <li><img src="Produto/Accu Chek Guide Economy.jpg" style="width: 200px; height: 250px;" alt=""></li>
+            <li><img src="Produto/Bepantol Derma Creme 40g.jpg" style="width: 200px; height: 250px;" alt=""></li>
+            <li><img src="Produto/Composto Lacteo 800g.jpg" style="width: 200px; height: 250px;" alt=""></li>
+            <li><img src="Produto/Gel de limpeza 200ml.jpg" style="width: 200px; height: 250px;" alt=""></li>
+            <li><img src="Produto/Kit Renu Solução.jpg" style="width: 200px; height: 250px;" alt=""></li>
+        </ul>
+    </div>
 </section>
 
 <section class="container-precos">
@@ -76,7 +77,12 @@
 
 </div>
     </section>
-       
+     <style>
+         @media screen and (max-width: 550px)
+         {
+             div.produtos ul
+         }
+     </style>  
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -87,5 +93,6 @@
   });
     </script>
     
+
 </body>
 </html>
