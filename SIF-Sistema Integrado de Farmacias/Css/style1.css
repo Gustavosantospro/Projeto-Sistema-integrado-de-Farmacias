@@ -31,8 +31,13 @@ div.produto div
     text-align: center;
 }
 
+
 @media screen and (max-width:520px)
 {
+    *body
+    {
+        max-width: 520px;
+    }
     div.col 
     {
         height: 200px;
@@ -41,15 +46,42 @@ div.produto div
 {
     margin-top: 2px;
     display: flex;
+    
+    
 }
-div.produtos
+section#produtos
+{    
+  
+    height: auto;
+    width: auto;
+    box-shadow: 2px 1px 8px black;
+}
+
+
+div#produto1
 {
-    padding: 1em;
+    margin-right:50px;
+    border-radius: 7px;
+    box-shadow: 2px 1px 8px black;
+    
+}
+div#produto2
+{
+    margin-right: 50px;
+    border-radius: 7px;
+    box-shadow: 2px 1px 8px black;
+}
+div#produto3
+{
+    margin-right: 50px;
+    border-radius: 7px;
+    box-shadow: 2px 1px 8px black;
+    
+}
+div#produto4
+{
+    margin-right: 50px;
+    border-radius: 7px;
+    box-shadow: 2px 1px 8px black;
 }
 }
-
-
-
-
-
-
