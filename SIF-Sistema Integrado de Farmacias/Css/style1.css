@@ -36,11 +36,13 @@ div.produto div
     border-top: black solid 1px;
     text-align: center;
 }
-@media screen and (max-width:750px)
+
+
+@media screen and (max-width:1310px)
 {
     body
     {
-        max-width: 750px;
+        max-width: 1310px;
         
     }
     div.col 
@@ -49,8 +51,8 @@ div.produto div
     }
     section#produtos
 {
-    max-width: 750px;
-    margin-top: 2px;
+    max-width: 1040px;
+    margin-top: 10%;
     display: inline-flexbox;
     overflow: hidden;
 }
@@ -65,11 +67,40 @@ div#produto1
 }
 }
 
-@media screen and (max-width:520px)
+@media screen and (max-width: 1045px)
 {
     body
     {
-        max-width: 520px;
+        max-width: 1045px;
+        
+    }
+    div.col 
+    {
+        height: 200px;
+    }
+    section#produtos
+{
+    max-width: 749px;
+    margin-top: 10%;
+    display: inline-flexbox;
+    overflow: hidden;
+}
+div#produto1.produto
+{
+    width: fit-content;
+}
+div#produto1
+{
+    margin-left: 15px;
+    
+}
+}
+
+@media screen and (max-width:749px)
+{
+    body
+    {
+        max-width: 749px;
         
     }
     div.col 
